@@ -1,0 +1,16 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    margin-right: 1%
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+section {
+    padding-bottom: 1%
+}
+#comediante{
+    display: flex;
+    max-height: 50vh
+}

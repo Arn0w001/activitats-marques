@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contacte (Empleats)</title>
+    <meta name="description" content="Plantilla" />
+    <meta name="author" content="Formulari de contacte" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="../../css/style12.css" />
+    <link rel="stylesheet" href="../../css/colors12.css" />
+  </head>
+  <body>
+    <header><h1>Pagina de contacte per a empleats</h1></header>
+    <nav>
+      <a href="./">Home</a>
+      <a href="./contacte.html">Contacte</a>
+      <a href="./horari.html">Horari</a>
+      <a href="./datacenter.html">Els nostres centres de dades</a>
+      <a href="./tasques.html">Tasques</a>
+    </nav>
+    <main>
+      <form action="#" method="post">
+        <label for="nom">Nom i cognom</label>
+        <br />
+        <input
+          type="text"
+          name="nom"
+          placeholder="Insereix el teu nom i cognoms. (Ex: John Doe)"
+          required
+        />
+        <br />
+        <label for="email">Correu electronic</label>
+        <br />
+        <input
+          type="email"
+          name="email"
+          placeholder="Insereix el correu empresarial per a rebre resposta. (Ex: jdoe@gatekeepstudios.example.com)"
+          required
+        />
+        <br />
+        <label for="employeeid">ID d'Empleat</label>
+        <br />
+        <input
+          type="number"
+          name="employeeid"
+          placeholder="Insereix el teu ID d'empleat. (6 digits)"
+          required
+          min="100000"
+          max="999999"
+        />
+        <br />
+        <label for="missatge">Missatge</label>
+        <br />
+        <textarea
+          name="missatge"
+          placeholder="Escriu el teu missatge. Ex: La màquina de café no funciona aqui a la seu de Vic."
+          required
+        ></textarea>
+        <br />
+        <button type="submit">Envia</button>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright Gatekeep Studios - 2026</p>
+      <p>CONFIDENCIAL - NO COMPARTIR</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Crea un compte</title>
+        <meta name="description" content="Plantilla">
+        <meta name="author" content="Arnau Milrado">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/colors.css">
+    </head>
+    <body>
+        <header><h1>Crea el teu compte</h1></header>
+        <main>
+            <form action="#" method="post">
+                <label for="nom">Nom i cognom</label>
+                <br>
+                <input type="text" id="nom" name="nom" placeholder="Insereix aqui el teu nom. Ex: Arnau Milrado" required>
+                <br>
+                <label for="email">Correu electrònic</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Insereix aqui el teu correu electronic. Ex: amilradov@example.com" required>
+                <br>
+                <label for="contrasenya">Contrasenya</label>
+                <br>
+                <input type="password" id="contrasenya" name="contrasenya" placeholder="Insereix aqui la teva contrasenya. No la comparteixis amb ningú." required minlength="8">
+                <br>
+                <label for="telnum">Numero de telèfon</label>
+                <br>
+                <input type="number" name="telnum" placeholder="Insereix el teu numero de telèfon (+34). Ex: 666666666" required min="600000000" max="999999999">
+                <br><br>
+                <input type="checkbox" id="ticcasella" name="ticcasella" required> He llegit i accepto els <b>Termes i Condicions</b>
+                <br><br>
+                <button type="submit">Crea el compte</button>
+            </form>
+        </main>
+    </body>
+</html>
