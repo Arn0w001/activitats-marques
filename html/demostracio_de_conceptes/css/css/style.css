@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding-bottom: 0;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+}
+
+.text{
+    color: darkblue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#text-titol{
+    color:crimson
+}
+
+.text-paragraf{
+    color: green;
+}
+
+main .text-paragraf{
+    background-color: aquamarine;
+}
+
+header p{
+    color:coral !important
+}
+
+/* p[class = "text"]{
+    display: none;
+} */

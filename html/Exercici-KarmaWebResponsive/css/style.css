@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 2%;
+
+}
+
+header a img{
+    height: 35px;
+    width: 35px
+}
+
+#karmadivbanner{
+    display: flex;
+    background-image: url("../img/first-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding-bottom: 20%;
+    padding-top: 20%
+}
+.imatgessvgmain{
+    max-width: 25%;
+}
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 4%;
+}
+h2{
+    justify-self: center;
+}
+footer{
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer p{
+    font-size: small;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+}
+footer section a img{
+    max-width:30px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px
+}

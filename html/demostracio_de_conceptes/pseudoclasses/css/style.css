@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+p:hover{
+    color: crimson;
+}
+p:active{
+    color: rgb(37, 20, 220);
+}
+input:focus{
+    background-color: darkgoldenrod;
+}
+input:checked{
+    height: 15em; 
+    width: 15em
+}
+
+input:required{
+    color: whitesmoke;
+}
+
+input:optional{
+    width: 20em;
+    height: 20em
+}
+
+li:first-child{
+    color: fuchsia;
+}
+
+li[class="asdf"]:first-child {
+    color: lawngreen
+}
+p::selection{
+    color:white;
+    background-color: white;
+}

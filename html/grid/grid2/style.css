@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.grid_merchant {
+
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    gap: 1em;
+}
+
+p{
+    font-size: 4em;
+    margin-left: 10px;
+}
+
+.a{
+    grid-column: 1 / 2;
+    grid-row: 1;
+}
+.b{
+    grid-column: 2 / -1;
+    grid-row: 1;
+}
+.c{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+.d{
+    grid-column: 2 / -1;
+    grid-row: 2;
+
+    padding: 2em;
+    /* Ara declarem el grid de D */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1em;
+}
+.e{
+    grid-column: 1 / -1;
+    grid-row: 1
+}
+.f{
+    grid-column: 1 / 2;
+    grid-row: 2;
+}
+.g{
+    grid-column: 2 / -1;
+    grid-row: 2;
+}
