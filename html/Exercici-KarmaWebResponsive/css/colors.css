@@ -1,10 +1,4 @@
-* {
 
-    text-decoration: none;
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
 h1, div p{
     color:whitesmoke
 }
@@ -16,4 +10,18 @@ h1, div p{
 }
 #copyright{
     color: grey
+}
+
+.karmadesktophyperlink{
+    color: grey;   
+}
+.karmadesktophyperlink:hover{
+    color: rgb(207, 111, 32)
+}
+#meetkarma{
+    color:black;
+    font-weight: bold;
+}
+#meetkarma:hover{
+    color:rgb(207, 111, 32)
 }
